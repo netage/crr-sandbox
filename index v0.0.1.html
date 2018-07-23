@@ -1,0 +1,1285 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <script src='//www.w3.org/Tools/respec/respec-w3c-common' async class='remove'></script>
+    <script class='remove'>
+      var respecConfig = {
+        specStatus: "unofficial",
+        editors: [{
+          name: "Netage B.V.",
+          url: "https://netage.nl/",
+        }],
+		logos: [{
+			src: 'https://netage.nl/wp-content/uploads/2018/06/Tekengebied-1.jpg',
+			href: "https://netage.nl/",
+			alt: "Netage B.V.",
+			width: 778,
+			height: 125,
+		  }],
+        github: "https://github.com/netage/crr-sandbox",
+      };
+    </script>
+	<title>Community Risk Reduction</title>
+  </head>
+  <body>
+    <h1>Community Risk Reduction</h1>
+    <section id='abstract'>
+      <p>
+        This is required.
+      </p>
+    </section>
+    <section id='sotd'>
+      <p>
+        This is required.
+      </p>
+    </section>
+    <section>
+      <h2>Introduction</h2>
+     <p>
+        Modern fire service agencies engage in many activities beyond responding to fires or even other types of emergencies. Many fire service agencies actively engage fire prevention and other community risk reduction ("CRR") activities as part of their comprehensive, all-hazards mitigation and response, capabilities. While many fire service agencies conduct these types of activities, there appears to be little consistency in how these activities are documented or what types of data are created.
+      </p>      
+    </section>
+	<section>
+      <h2>Audience</h2>
+     <p>
+	 The overall goal of this project is to develop a prototype data model. The National Fire Data System being developed by NFPA is expanded for quality local and national data for CRR decision making. The project will convene subject matter experts from the enforcer, public education, CRR, codes & standards, and data communities to identify current best practices and existing data formats to develop a scalable, flexible, CRR data model.
+      </p>      
+    </section>
+	<section>
+      <h2>Scope</h2>
+		<section id="scope-crr">
+            <h3>Community Risk Reduction</h3>
+            <p>sdf</p>
+        </section> 
+		<section id="scope-usecases">
+            <h3></span>Use cases</h3>
+            <p>sdf</p>
+        </section> 	
+		<section id="scope-datapublication">
+            <h3>Data publication</h3>
+            <p>sdf</p>
+        </section>
+    </section>
+	<section id="bp-summary">  
+    </section>
+	
+	<section id="bestPractices">
+        <!--OddPage-->
+        <h2>The Use Cases</h2>
+        <section>
+            <h3> Community Risk Reduction Best Practices</h3>
+			
+            <div class="practice">
+                <p><span id="cosat" class="practicelab">CoSAT</span></p>
+				<p><table id="ns-rdf-table">
+                <tbody>
+                    <tr>
+                        <td>Stakeholder</td>
+                        <td>Poudre Fire Authority, Colorado</td>
+                    </tr>
+					<tr>
+                        <td>Stakeholder type</td>
+                        <td>Fire Department</td>
+                    </tr>
+					<tr>
+                        <td>Source/contact</td>
+                        <td>Michael Durkin, Education Specialist</td>
+                    </tr>
+                </tbody>
+            </table></p>
+            <section class="goal">
+                    <h4 class="subhead" id="why">What is the CRR project goal? When is your project successful? </h4>
+                    <p>CoSAT Program&#39;s goal is to combine home fire safety and provide social help for low-income households. Success:
+					<ul>
+						<li>Number of alarms installed</li> 
+						<li>The number of needs identified and met</li>				
+						<li>The number of hazards identified and mitigated</li>							
+					</ul>
+					CoSAT targets small pockets of neglected residents&#45;in this case mobile home parks, which they noted are often known as &ldquo;resource deserts&rdquo;. To deal with this small sample size; CoSAT uses a concept of micro-communities, which emphasizes community perceptions in addition to call data. The strong anecdotal evidence from the communities is that this program made them feel safer in their homes, increased their knowledge, and built their trust in the fire department. CoSAT volunteers reported all feedback.
+					The call data, although limited, supports the anecdotal data. 12.4% of homes canvassed made an emergency call in the 150 days after a CoSAT event and 10% of those homes suffered a fire. Of homes that used CoSAT services, only 1.1% made an emergency call and zero of those were fires.
+
+				</p>
+            </section>
+            <section class="method">
+                    <h4 class="subhead" id="method">How is the project organized?</h4>
+                    <p>The pre-event formative evaluation was a geographic, qualitative smoke-alarm targeting. We knew the targeted homes were older and in low-income areas. The mobile home parks targeted exist outside city limits which mean fewer resources are available to these residents. The age of homes and their place in a resource-desert meant that very few of these homes would have working alarms. Low-income households often lack the means to get these without aid.
+						This pre-event evaluation identified nine parks, comprising 266 homes. During these events, social work students from Colorado State University&#39;s School of Social Work conducted an informal, in-person assessment of the residents in the home. Their task was to identify needs the resident has, beyond smoke alarms. Rather than applying a limiting model to this conversation, we allowed the residents to self-identify their biggest need(s). This second formative evaluation guided our follow-up efforts with these residents.
+					</p>
+            </section>
+			<section class="activity">
+				<h4 class="subhead" id="possible-approach-to-implementation">Which CRR activity/activities do you employ?</h4>
+				<p>The Community Service Action Teams (CoSAT) program do house visits. First visit:
+				<ol>
+					<li>Install smoke alarm</li>
+					<li>Give fire safety instructions</li>
+					<li>Identify resident needs</li>
+					<li>Inform on help initiatives. All CoSAT members are debriefed after each event to guide future events. They identified a need for more in-home resources. Second visit within 2 weeks.</li>
+					<li>Meet needs identified. CoSAT responds to needs identified by the community. As such, it is undergoing constant evaluation. As needs come from the community, we identify local resources to meet them. Some identified needs included winter clothing, food assistance, utility assistance, and employment help. These resources are blended into future CoSAT events, resulting in an ever-growing resource-bank.
+					All CoSAT members are debriefed after each event to guide future events. They identified a need for more in-home resources. At the first event, they were given a home-assessment form to get basic contact information and record needs. As our resource bank grew, CoSAT teams now carry backpacks of brochures and other materials.
+					</li>
+				</ol>
+				</p>
+			</section>
+			<section class="targetdata">
+				<h4 class="subhead" id="possible-approach-to-implementation">Which data are used to target this CRR group?</h4>
+				<ol>
+					<li>Older homes</li>
+					<li>Low income households</li>
+					<li>Mobile home parks outside city limits</li>
+				</ol>
+				</p>
+			</section>
+			<section class="activitydata">
+				<h4 class="subhead" id="possible-approach-to-implementation">Which CRR activities should be registered?</h4>
+				<ol>
+					<li>CoSAT members</li>
+					<li>Date</li>
+					<li>Address</li>
+					<li>Number of smoke alarms installed</li>
+					<li>Fire Safety instruction given?</li>
+					<li>Identified needs</li>
+					<li>Which needs are met? How?</li>
+					<li>What information is shared?</li>
+					<li>Which hazards are identified?</li>
+					<li>Which hazard is mitigated? How?</li>
+					<li>Debriefing	&#45; learnings from this event</li>
+				</ol>
+				</p>
+			</section>
+			</div>
+			
+			
+            <div class="practice">
+                <p><span id="casualchainanalysis" class="practicelab">Causal Chain Analysis</span></p>
+				<p><table id="ns-rdf-table">
+                <tbody>
+                    <tr>
+                        <td>Stakeholder</td>
+                        <td>Lebanon Fire Department in Pittsburgh, PA</td>
+                    </tr>
+					<tr>
+                        <td>Stakeholder type</td>
+                        <td>Fire Department</td>
+                    </tr>
+					<tr>
+                        <td>Source/contact</td>
+                        <td>Christopher Switala, Education Specialist</td>
+                    </tr>
+                </tbody>
+            </table></p>
+            <section class="goal">
+                    <h4 class="subhead" id="why">What is the CRR project goal? When is your project successful? </h4>
+                    <p>Causal Chain Analysis project addressed 2 goals: 
+					<ol>
+						<li>Change occupants behavior in a fire by
+						<ol type="a">
+							<li>Get alarmed by installed smoke alarms</li>
+							<li>Do not attempt to fight the fire</li>
+							<li>Get out and call 911</li>
+						</ol>
+						</li> 
+						<li>Prevent fires by blowing out candles when leaving a room</li>									
+					</ol>
+					</p>
+					<p>Success is measured by: 
+					<ol>
+						<li>Increased number of homes involved in structure fires had a working smoke alarm</li> 
+						<li>Reduction of the percentage of candle fires</li>
+						<li>Reduction of the percentage of residential structure fires where the occupant attempted to extinguish the fire</li>
+						<li>Reduction of the percentage of residential structure fires where the occupant attempted to extinguish the fire</li>
+						<li>Reduction of the percentage of cooking fires where the occupant attempted to extinguish the fire</li>
+						<li>Reduction of the civilian fire-related injuries</li>
+						<li>Increase of buy-in by line personnel for CRR efforts (due to visible results)</li>
+						<li>Reduction in the number of residential structure fires and associated dollar loss</li>
+						<li>Reduction in the dollar loss per structure fire</li>	
+						<li>Reduction of number of fatalities</li>						
+					</ol>
+            </section>
+            <section class="method">
+                    <h4 class="subhead" id="method">How is the project organized?</h4>
+                    <p>	Analysis of five years of incident data and circumstances was conducted to identify the prevalent root causes for fire related risk reduction strategies. Causal chain analysis based on incident data was used to identify the prevalent root causes for fire-related risk reduction strategies.  Interventions addressing these three areas were:	
+					<ol>
+						<li>Reduce number of occupants that attempt to fight the fire</li>
+						<li>Increase number of working smoke alarms</li>	
+						<li>Decrease number of candle fires</li>						
+					</ol>
+					</p>
+            </section>
+			<section class="activity">
+				<h4 class="subhead" id="possible-approach-to-implementation">Which CRR activity/activities do you employ?</h4>
+				<p>Messaging developed &ldquo;Get out and call 911&rdquo; & &ldquo;blow out candles when leaving a room&rdquo;.
+				<ol>
+					<li>Home visits with Smoke alarm installation & fire safety message
+					<ol type="a">
+						<li>Targeted wards</li>
+						<li>Post-fire neighborhood canvassing</li>
+					</ol>
+					</li>
+					<li>Messaging on community magazine, social media posts</li>
+					<li>Incorporate message into the elementary school fire and life safety education program</li>
+				</ol>
+				</p>
+			</section>
+			<section class="targetdata">
+				<h4 class="subhead" id="possible-approach-to-implementation">Which data are used to target this CRR group?</h4>
+				<p>
+				</p>
+			</section>
+			<section class="activitydata">
+				<h4 class="subhead" id="possible-approach-to-implementation">Which CRR activities should be registered?</h4>
+				<ol>
+					<li>Smoke alarm installations</li>
+					<li>Fire and life safety education events</li>
+					<li>Incident data including:
+					<ol type="1">
+						<li>Was it a candle fire?</li>
+						<li>Was occupant alarmed by smoke alarm?</li>
+						<li>Did occupant attempt to fight the fire?</li>
+						</ol>
+					</li>
+				</ol>
+				
+				Canvassing Data Collection
+				<ol>
+					<li>Address</li>
+					<li>Not Home? (Y or N)</li>
+					<li>Refused Service? (Y or N)</li>
+					<li>Working smoke alarm outside sleeping area? (Y or N)</li>
+					<li>Is smoke alarm greater than 10 years old? (Y or N)</li>
+					<li>Working smoke alarms on all levels? (Y or N)</li>
+					<li>Working smoke alarms in all bedrooms? (Y or N)</li>
+					<li>Number of smoke alarms installed?</li>
+					<li>Number of batteries installed?</li>
+				</ol>
+				</p>
+			</section>
+			</div>
+			
+            <div class="practice">
+                <p><span id="virtualcrr" class="practicelab">Virtual CRR</span></p>
+				<p><table id="ns-rdf-table">
+                <tbody>
+                    <tr>
+                        <td>Stakeholder</td>
+                        <td>Virtual CRR</td>
+                    </tr>
+					<tr>
+                        <td>Stakeholder type</td>
+                        <td>Fire Department</td>
+                    </tr>
+					<tr>
+                        <td>Source/contact</td>
+                        <td>Brent Faulkner, CEO</td>
+                    </tr>
+                </tbody>
+            </table></p>
+            <section class="goal">
+                    <h4 class="subhead" id="why">What is the CRR project goal? When is your project successful? </h4>
+                    <p>The intent is for the community members (residents and businesses) to make changes that lower the overall risk of the community without the Fire Department having to physically do it. 
+						Educate via Internet tool, collect local data, put civilians into action.
+						Success:
+					<ol type="1">
+						<li>Number of civilians that do the VirtualCRR </li> 
+						<li>Number of civilians that make changes to reduce the overall risk of the business/residence</li>									
+					</ol>
+					</p>
+            </section>
+            <section class="method">
+                    <h4 class="subhead" id="method">How is the project organized?</h4>
+                    <p>A survey based on a Fire Department&#39;s home visit survey is set up. Additional information is set-up in cooperation with the FD. Via a FD website and/or campaign your civilians are reached. This can lead to three things:	
+					<ol type="1">
+						<li>Perform a Risk Assessment of the target community.</li>
+						<li>Teach the community (residences and businesses) the Fire Department&#39;s safety information on how to reduce their risk.</li>	
+						<li>Prioritize the departments future CRR activities.</li>						
+					</ol>
+					</p>
+            </section>
+			<section class="activity">
+				<h4 class="subhead" id="possible-approach-to-implementation">Which CRR activity/activities do you employ?</h4>
+				<p>
+				<ol>
+					<li>Set up internet survey</li>
+					<li>Set up additional information</li>
+					<li>Include VirtualCRR in your Media campaign</li>
+					<li>Civilians do the VirtualCRR</li>
+					<li>FD analyses extra data for follow up CRR projects</li>
+				</ol>
+				</p>
+			</section>
+			<section class="targetdata">
+				<h4 class="subhead" id="possible-approach-to-implementation">Which data are used to target this CRR group?</h4>
+				<p>	
+					VirtualCRR provides geo-data determined by the questions the FD asks via VirtualCRR.
+				</p>
+			</section>
+			<section class="activitydata">
+				<h4 class="subhead" id="possible-approach-to-implementation">Which CRR activities should be registered?</h4>
+				<ol>
+					<li>Geographic area in which the civilians live. The department determines what those geographic areas are. It could be fire station response area, battalion area, city council boundaries.</li>
+					<li>Address. This is not a requirement</li>
+					<li>Data on every question the department would like to ask. The department determines the questions, so in reality, VirtualCRR could collect data on just about anything. The data correlates back to the address given or the geographical area chosen.</li>
+				</ol>
+				</p>
+			</section>
+			</div>
+			
+            <div class="practice">
+                <p><span id="firesafecooking" class="practicelab">Fire Safe Cooking</span></p>
+				<p><table id="ns-rdf-table">
+                <tbody>
+                    <tr>
+                        <td>Stakeholder</td>
+                        <td>Worcester Fire Department </td>
+                    </tr>
+					<tr>
+                        <td>Stakeholder type</td>
+                        <td>Fire Department</td>
+                    </tr>
+					<tr>
+                        <td>Source/contact</td>
+                        <td>Annmarie Pickett, Lieutenant</td>
+                    </tr>
+                </tbody>
+            </table></p>
+            <section class="goal">
+                    <h4 class="subhead" id="why">What is the CRR project goal? When is your project successful? </h4>
+					<p>Reduce number of cooking fires in four buildings, 759 apartments. Residents are elderly, low-income, physical mobility and/or mental disability. 
+					Success:
+					<ol>
+						<li>Reduce number of cooking fires in these apartments</li> 
+						<li>Reduce call volume</li>
+						<li>Lower WHA energy costs from use of more energy-efficient TLC burners</li>
+						<li>No complaints from residents</li>
+					</ol>
+					</p>
+            </section>
+            <section class="method">
+                    <h4 class="subhead" id="method">How is the project organized?</h4>
+					<p>Worcester (MA) Fire Department analyses fire incident data and discussed results with Worcester Housing Authority (WFA). WFD/WHA teams installed burner sets with Temperature Limiting Control (TLC, which keeps the cooking oil from reaching its ignition temperature).
+					</p>
+            </section>
+			<section class="activity">
+				<h4 class="subhead" id="possible-approach-to-implementation">Which CRR activity/activities do you employ?</h4>
+				<p>
+				<ol type="1">
+					<li>Build a robust partnership between WFD and WHA</li>
+					<li>Research technological solutions to the cooking fire problem</li>
+					<li>Install Temperature Limiting Control in 100% of the units in the four high-risk properties</li>
+					<li>Update WFD&#39;s fire education materials (based on NFPA&#39;s Remembering When) to include the new technology components</li>
+					<li>Provide education sessions to brief residents on the project</li>
+					<li>Create protocols to manage/track the installs</li>
+					<li>Analyze results for program improvement and replication</li>
+				</ol>
+				</p>
+			</section>
+			<section class="targetdata">
+				<h4 class="subhead" id="possible-approach-to-implementation">Which data are used to target this CRR group?</h4>
+				<p>	
+				</p>
+			</section>
+			<section class="activitydata">
+				<h4 class="subhead" id="possible-approach-to-implementation">Which CRR activities should be registered?</h4>
+				<ol>
+					<li>Date & addresses Installed burners</li>
+					<li>Date & addresses education</li>
+					<li>Resistance from residents about using the new TLC burners</li>
+					<li>Length of time to install educate</li>
+					<li>What was done if residents were not home</li>
+					<li>How to overcome other barriers</li>
+				</ol>
+				Tracking system to monitor post-installation reports of cooking fires, any injuries/deaths/property damage claims, etc. The team compared to prior experience at these buildings and to WHA&#39;s other 20 complexes. 
+				</p>
+			</section>
+			</div>
+			
+            <div class="practice">
+                <p><span id="youthset" class="practicelab">Fire Safe Cooking</span></p>
+				<p><table id="ns-rdf-table">
+                <tbody>
+                    <tr>
+                        <td>Stakeholder</td>
+                        <td>Minnesota Department of public safety</td>
+                    </tr>
+					<tr>
+                        <td>Stakeholder type</td>
+                        <td>State Department</td>
+                    </tr>
+					<tr>
+                        <td>Source/contact</td>
+                        <td>Kathy Osmonson, Deputy State Fire Marshal</td>
+                    </tr>
+                </tbody>
+            </table></p>
+            <section class="goal">
+                    <h4 class="subhead" id="why">What is the CRR project goal? When is your project successful? </h4>
+					<p>Reduce number of youth-set fires and the underlying problems. 
+					Success:
+
+					<ol>
+						<li>Reduce number of youth-set fires</li> 
+						<li>Provide intervention to all youth who are involved in starting fires</li>
+					</ol>
+					</p>
+            </section>
+            <section class="method">
+                    <h4 class="subhead" id="method">How is the project organized?</h4>
+					<p>
+					Minnesota Department of Public Safety&#39;s State Fire Marshal Division has reported on Youth-Set Fires. The purpose for identifying these children is to offer intervention services so that they will learn the dangers of setting fires and stop the behavior. Minnesota has a statewide network of regional youth fire intervention specialists. When a child is referred to one of the regions, the regional program manager initiates contact with the family. A youth fire intervention specialist visits with the family and uses a standard actuarial (answers are numerically weighted) assessment tool to determine the child&#39;s intervention needs. The tool provides intervention direction for the high and low scoring kids. High scoring children will often be referred to mental health care. Low scoring children may simply need an educational intervention consisting of intensive fire science, prevention and safety topics. Even children who start cooking, smoking or fireworks fires will benefit from fire education.
+					</p>
+            </section>
+			<section class="activity">
+				<h4 class="subhead" id="possible-approach-to-implementation">Which CRR activity/activities do you employ?</h4>
+				<p>
+				<ol type="1">
+					<li>National Fire Academy: Youth firesetting Prevention and Intervention Courses</li>
+					<li>Iowa&#39;s Juvenile Fire Intervention Program</li>
+					<li>YFIRES, The Youth Firesetting Information Repository & Evaluation System</li>
+					<li>FIREFACTOR 	&#45; a Colorado springs fire department prevention program</li>
+					<li>Provide education sessions to brief residents on the project</li>
+					<li>Minnesota Model of Youth Fire Intervention</li>
+				</ol>
+				</p>
+			</section>
+			<section class="targetdata">
+				<h4 class="subhead" id="possible-approach-to-implementation">Which data are used to target this CRR group?</h4>
+				<p>	
+				<ol type="1">
+					<li>Age at the time of incident</li>
+					<li>Gender</li>
+					<li>Race</li>
+					<li>Grade in school at the time of the incident</li>
+					<li>Family type of youth</li>
+					<li>Zip code</li>
+					<li>Primary caregiver&#39;s highest level of education</li>
+					<li>Referral to program initiated by</li>
+					<li>Has the youth had previous firesetting incidents (If yes - #10, &ldquo;how many times&rdquo; is activated)</li>
+					<li>Incident month (auto-populated from the Incident Date)</li>
+					<li>Incident year (auto-populated from the Incident Date)</li>
+					<li>Incident day of the week</li>
+					<li>Incident time of day</li>
+					<li>Incident location</li>
+					<li>Ignition source</li>
+					<li>First item ignited</li>
+					<li>Were there associates involved in the incident</li>
+					<li>Final disposition of case</li>
+					<li>Was an incident report entered into the National Fire Incident Reporting System (NFIRS)</li>
+				</ol>
+				</p>
+			</section>
+			<section class="activitydata">
+				<h4 class="subhead" id="possible-approach-to-implementation">Which CRR activities should be registered?</h4>
+				The activities to be documented are per case. It helps in the event that the individual starts another fire, then the YFPI Specialist can look back and see what has already been done.
+				<ol type="1">
+					<li>Intervention strategies used</li>
+					<li>Follow-up information about behavior change and recidivism</li>
+				</ol>
+				</p>
+			</section>
+			</div>
+			
+            <div class="practice">
+                <p><span id="ddrivers" class="practicelab">D-Drivers Blocking Techniques</span></p>
+				<p><table id="ns-rdf-table">
+                <tbody>
+                    <tr>
+                        <td>Stakeholder</td>
+                        <td>Responder Safety.com</td>
+                    </tr>
+					<tr>
+                        <td>Stakeholder type</td>
+                        <td>informal advisory panel of public safety leaders</td>
+                    </tr>
+					<tr>
+                        <td>Source/contact</td>
+                        <td>Jack Sullivan CSP, CFPS Director of Training</td>
+                    </tr>
+                </tbody>
+            </table></p>
+            <section class="goal">
+                    <h4 class="subhead" id="why">What is the CRR project goal? When is your project successful? </h4>
+					<p>Reduce number of D-Drivers Roadway Incidents and Responder safety. D-Drivers are distracted, drugged, disgruntled, asleep or drunk. 
+					Success:
+
+					<ol>
+						<li>Reduce number of D-Drivers Roadway Incidents and fatalities</li> 
+					</ol>
+					</p>
+            </section>
+            <section class="method">
+                    <h4 class="subhead" id="method">How is the project organized?</h4>
+					<p>
+						9 out of 10 incidents are roadway incidents. Train first-responders and campaign to educate general public.					</p>
+            </section>
+			<section class="activity">
+				<h4 class="subhead" id="possible-approach-to-implementation">Which CRR activity/activities do you employ?</h4>
+				<p>
+				<ol type="1">
+					<li>Trainings</li>
+				</ol>
+				</p>
+			</section>
+			<section class="targetdata">
+				<h4 class="subhead" id="possible-approach-to-implementation">Which data are used to target this CRR group?</h4>
+				<p>	
+				</p>
+			</section>
+			<section class="activitydata">
+				<h4 class="subhead" id="possible-approach-to-implementation">Which CRR activities should be registered?</h4>
+				<ol>
+					<li>Trainees</li>
+					<li>Date</li>
+				</ol>
+				</p>
+			</section>
+			</div>
+			
+            <div class="practice">
+                <p><span id="crrplan" class="practicelab">Statewide CRR plan</span></p>
+				<p><table id="ns-rdf-table">
+                <tbody>
+                    <tr>
+                        <td>Stakeholder</td>
+                        <td>Tennessee</td>
+                    </tr>
+					<tr>
+                        <td>Stakeholder type</td>
+                        <td>State Department</td>
+                    </tr>
+					<tr>
+                        <td>Source/contact</td>
+                        <td>Greg Adams, Director of Education and Outreach</td>
+                    </tr>
+                </tbody>
+            </table></p>
+            <section class="goal">
+                    <h4 class="subhead" id="why">What is the CRR project goal? When is your project successful? </h4>
+					<p>
+					<ol>
+						<li>Reduce number of fire deaths below 10 deaths per million</li>
+						<li>Reduce number of structural fires below 9.000 fires/year</li>
+						<li>By 2020 have 100 Fire Departments with TSFMO-approved CRR plan</li>
+						<li>Reduce number of structure fires</li>
+						<li>Fire Departments trust state in CRR program</li>
+					</ol>
+					</p>
+            </section>
+            <section class="method">
+                    <h4 class="subhead" id="method">How is the project organized?</h4>
+					<p>
+					Tennessee State Fire Marshall Office, TSFMO, found a correlation among demographic characteristics and fire risk: income; housing value; educational level. FDs lack resources for CRR. TSFMO provides Risk assessments that empower fire departments to implement CRR plans in their community. 
+					</p>
+            </section>
+			<section class="activity">
+				<h4 class="subhead" id="possible-approach-to-implementation">Which CRR activity/activities do you employ?</h4>
+				<p>
+				<ol type="1">
+					<li>Get Alarmed Tennessee &#45; FDs join smoke alarm program focused on high&#45;risk communities.</li>
+					<li>Targeted smoke alarm Canvasses &#45; TSFMO & FD create risk maps to identify high&#45;risk homes to visit for fire prevention education and smoke alarm installations.</li>
+					<li>Improved CRR assessments based on FD feedback.</li>
+					<li>Provide FDs with CRR results to advocate for more CRR resources.</li>
+					<li>Annual Excellence in CRR Award</li>
+					<li>Support FDs in developing a CRR plan</li>
+					<li>Review FD&#39;s CRR plan</li>
+					<li>Campaign on fire safety:
+						<ol type="a">
+							<li>Smoke alarm</li>
+							<li>Get out, stay out</li>
+							<li>Escape planning</li>
+							<li>Fire Sprinklers</li>
+							<li>Close the door</li>
+						</ol>
+					</li>
+				</ol>
+				</p>
+			</section>
+			<section class="targetdata">
+				<h4 class="subhead" id="possible-approach-to-implementation">Which data are used to target this CRR group?</h4>
+				<p>
+					<ul>
+						<li>Census data</li>
+						<li>NFIRS</li>
+					</ul>
+				</p>
+			</section>
+			<section class="activitydata">
+				<h4 class="subhead" id="possible-approach-to-implementation">Which CRR activities should be registered?</h4>
+				<ul>
+					<li>Number of canvasses</li>
+					<li>Number of homes visited for safety education and install smoke alarms</li>
+					<li>Number of FD risk assessments</li>
+					<li>Number of Submitted FD CRR plans for evaluation</li>
+				</ul>
+				</p>
+			</section>
+			</div>
+			
+            <div class="practice">
+                <p><span id="clearteam" class="practicelab">CLEAR Team</span></p>
+				<p><table id="ns-rdf-table">
+                <tbody>
+                    <tr>
+                        <td>Stakeholder</td>
+                        <td>South Carolina Office of State Fire Marshal</td>
+                    </tr>
+					<tr>
+                        <td>Stakeholder type</td>
+                        <td>State Department</td>
+                    </tr>
+					<tr>
+                        <td>Source/contact</td>
+                        <td>Samantha Quizon, Research Analyst III</td>
+                    </tr>
+                </tbody>
+            </table></p>
+            <section class="goal">
+                    <h4 class="subhead" id="why">What is the CRR project goal? When is your project successful? </h4>
+					<p>Better understand fatal fire incidents to address fire and life safety concerns to fuel &lsquo;prevention programs&rsquo;. 
+					<ol>
+						<li>Increase the percentage of reports on fatal fire</li>
+						<li>Decrease the percentage of reports on fatal fire listed &lsquo;undetermined&rsquo;</li>
+						<li>Improve relationship between FDs and State Research</li>
+					</ol>
+					</p>
+            </section>
+            <section class="method">
+                    <h4 class="subhead" id="method">How is the project organized?</h4>
+					<p>
+						Fatal fire incidents were researched by phone interviews, providing opportunities to determine what data was important to FDs, community stakeholders, and researchers. Number of data points per incident grew. Research team responded to every &lsquo;hot&rsquo; scene. The team grew and supports the FD in collecting fire incident data at the scene.					</p>
+            </section>
+			<section class="activity">
+				<h4 class="subhead" id="possible-approach-to-implementation">Which CRR activity/activities do you employ?</h4>
+				<p>
+				<ol type="1">
+					<li>Improve research on fatal fire incidents</li>
+					<li>Use knowledge on fatal fire incidents to statewide education with purposeful targeted messaging
+						<ol type="a">
+							<li>Alarm types and placement</li>
+							<li>Drill plan</li>
+							<li>Residential fire sprinklers</li>
+							<li>Action on fire and life safety risks</li>
+						</ol>
+					</li>
+					<li>Smoke alarm blitz</li>
+					<li>Education on safer smoking, cooking and heating practices</li>
+					<li>Intentional messaging toward known high-risk populations</li>
+					<li>Partnerships between CLEAR and FDs to address risks in high-risk populations</li>
+				</ol>
+				</p>
+			</section>
+			<section class="targetdata">
+				<h4 class="subhead" id="possible-approach-to-implementation">Which data are used to target this CRR group?</h4>
+				<p>
+				</p>
+			</section>
+			<section class="activitydata">
+				<h4 class="subhead" id="possible-approach-to-implementation">Which CRR activities should be registered?</h4>
+				<ul>
+					<li>Smoke alarm installations</li>
+					<li>Drill plan events</li>
+					<li>Fire sprinklers installations</li>
+					<li>Education events (who, when and what is educated?)</li>
+					<li>Campaign media exposure</li>
+				</ul>
+				</p>
+			</section>
+			</div>
+			
+            <div class="practice">
+                <p><span id="fsia" class="practicelab">Fire Sprinklers Incentive Act</span></p>
+				<p><table id="ns-rdf-table">
+                <tbody>
+                    <tr>
+                        <td>Stakeholder</td>
+                        <td>Congressional Fire Services Institute
+							CFSI is one of many stakeholders that advocated for passage of the legislation: National Fire Sprinkler Association, International Association of Fire Chiefs, National Volunteer Fire Council, Common Voices were among the other organizations involved. 
+						</td>
+                    </tr>
+					<tr>
+                        <td>Stakeholder type</td>
+                        <td>Stakeholder group 
+							CFSI is a policy institute/advocacy organization, registered as a 501 (C) 3.
+						</td>
+                    </tr>
+					<tr>
+                        <td>Source/contact</td>
+                        <td>Bill Webb, Executive Director CFSI</td>
+                    </tr>
+                </tbody>
+            </table></p>
+            <section class="goal">
+                    <h4 class="subhead" id="why">What is the CRR project goal? When is your project successful? </h4>
+					<p>
+						Create economic incentives for certain businesses to retrofit their properties with automatic fire sprinklers 
+						Decrease the number of fire-related injuries, civilian deaths, firefighter deaths
+						Decrease the direct and indirect property damage by fire
+					</p>
+            </section>
+            <section class="method">
+                    <h4 class="subhead" id="method">How is the project organized?</h4>
+					<p>
+						The FSIA act is supported by many organizations: <a href="https://en.wikipedia.org/wiki/Fire_Sprinkler_Incentive_Act">Fire Sprinkler Incentive Act</a>.
+					</p>
+            </section>
+			<section class="activity">
+				<h4 class="subhead" id="possible-approach-to-implementation">Which CRR activity/activities do you employ?</h4>
+				<p>
+				<ol type="1">
+					<li>Conduct meetings with members of Congress, their staff, and the authorizing committees (House Ways and Means, and Senate Finance)</li>
+					<li>Conduct Capitol Hill Briefings and stakeholders visits with Congressional offices</li>
+					<li>Develop white papers and coalition letters that were distributed to members of Congress</li>
+					<li>Fundraising - CFSI didn&#39;t engage in any fundraising activity, although one organization did: the National Fire Sprinkler Association.</li>
+					<li>Strategy meetings, email exchanges and conferences calls to discuss the activities and progress of each of the coalition members.</li>
+				</ol>
+				</p>
+			</section>
+			<section class="targetdata">
+				<h4 class="subhead" id="possible-approach-to-implementation">Which data are used to target this CRR group?</h4>
+				<p>
+				</p>
+			</section>
+			<section class="activitydata">
+				<h4 class="subhead" id="possible-approach-to-implementation">Which CRR activities should be registered?</h4>
+				<p>
+				</p>
+			</section>
+			</div>		
+			
+            <div class="practice">
+                <p><span id="mysafela" class="practicelab">MySafe:LA</span></p>
+				<p><table id="ns-rdf-table">
+                <tbody>
+                    <tr>
+                        <td>Stakeholder</td>
+                        <td>South Carolina Office of State Fire Marshal</td>
+                    </tr>
+					<tr>
+                        <td>Stakeholder type</td>
+                        <td>Stakeholder group 
+						<td>Local Government</td>
+                    </tr>
+					<tr>
+                        <td>Source/contact</td>
+                        <td>David Barett, Executive Officer</td>
+                    </tr>
+                </tbody>
+            </table></p>
+            <section class="goal">
+                    <h4 class="subhead" id="why">What is the CRR project goal? When is your project successful? </h4>
+					<p>
+						Objectives:
+						<ol>
+							<li>Reduction in fatalities as a result of fire</li>
+							<li>Maximizing resident (notably older adult) escape opportunities from fire</li>
+							<li>Engagement with community members provides an incentive to take responsibility for their own safety </li>
+						</ol>
+					</p>
+            </section>
+            <section class="method">
+                    <h4 class="subhead" id="method">How is the project organized?</h4>
+					<p>
+						MySafe:LA discusses CRR planning with a diverse mix of political, first responder and support organizations: Mayor (Crisis Response Team), the City Council (15 regional offices), The American Red Cross, Department of Aging, LA City Fire Department, LA City Attorney, Neighborhood Councils, and others. Triage of the needs of the most at-risk communities in the city. It engages partners and creates better outcomes for a wider group of participants, advocates and supporters. In a diverse series of neighborhoods, it engages the community via their own local stakeholders improving results and creates an ongoing benefit  beyond individual &lsquo;canvassing&rsquo;  operations. 					
+					</p>
+            </section>
+			<section class="activity">
+				<h4 class="subhead" id="possible-approach-to-implementation">Which CRR activity/activities do you employ?</h4>
+				<p>Target a community:
+				<ol type="1">
+					<li>Visit local elementary schools &#45; 4th&5th grade education to Junior Fire Inspectors</li>
+					<li>Visit high schools &#45; 10th&12th-grade students education of CPR and AED</li>
+					<li>Present Neighborhood Councils to engage them on specific dates (canvassing, events)</li>
+					<li>Canvassing dates: open fire stations for the community and have all fire safety materials and alarm installation appointment forms available</li>
+					<li>Smoke alarm Awareness Month (March 15 &#45; April 15)</li>
+					<li>Events with food trucks, firefighter demonstrations, CPR education, canvassing</li>
+					<li>Canvassing: public safety officers, first due firefighters (who only make introductions), local elected officials, stakeholders</li>
+				</ol>
+				</p>
+			</section>
+			<section class="targetdata">
+				<h4 class="subhead" id="possible-approach-to-implementation">Which data are used to target this CRR group?</h4>
+				<p>
+				</p>
+			</section>
+			<section class="activitydata">
+				<h4 class="subhead" id="possible-approach-to-implementation">Which CRR activities should be registered?</h4>
+				<p>
+				Education events (who, when and what)
+				Campaign media exposure
+
+				New tablet software is used for tracking results, including what issues may be focused on beyond smoke alarms (older adults, disabilities, environmental issues, etc.). 
+				SAAS: Deputy, Insightly, Square
+
+				</p>
+			</section>
+			</div>
+			
+            <div class="practice">
+                <p><span id="tragedy" class="practicelab">Multi-Family Occupancies: Tragedy leads to Success</span></p>
+				<p><table id="ns-rdf-table">
+                <tbody>
+                    <tr>
+                        <td>Stakeholder</td>
+                        <td>Fire Department Mitchell, South Dokota</td>
+                    </tr>
+					<tr>
+                        <td>Stakeholder type</td>
+                        <td>Fire Department </td>
+                    </tr>
+					<tr>
+                        <td>Source/contact</td>
+                        <td>Marius Laursen, Fire Marshal Mitchell</td>
+                    </tr>
+                </tbody>
+            </table></p>
+            <section class="goal">
+                    <h4 class="subhead" id="why">What is the CRR project goal? When is your project successful? </h4>
+					<p>
+						Reduce number of injuries and deaths in Multi-family occupancies. 
+						Success:
+						There has been no change in the number of fires before and after the program. The low level of occurrences makes it difficult to get an accurate gauge of the situation. Since the program started, 100% of occupants have been alerted by a working smoke alarm during a fire and there have been no fire fatalities. 
+					</p>
+            </section>
+            <section class="method">
+                    <h4 class="subhead" id="method">How is the project organized?</h4>
+					<p>
+						Fire and police departments team up to teach fire and life safety classes. These classes are geared towards changing the &lsquo;it won&#39;t happen to me&rsquo; mentality. 
+						The local Housing and Urban Development (HUD) formed a Landlord Association with the Fire Marshal to help educate not only on HUD standards but also on building and fire codes. 
+					</p>
+            </section>
+			<section class="activity">
+				<h4 class="subhead" id="possible-approach-to-implementation">Which CRR activity/activities do you employ?</h4>
+				<p>Target a community:
+				<ul>
+					<li>Overcome City Attorney&#39;s office to the adoption of the International Fire Code by a tragic fatality.</li>
+					<li>City Attorney added legislation to IFC to allow FD easier access to multi-family structures.</li>
+					<li>FD realized an inspection program for the new occupancy classifications. The program was created using the National Fire Academy Executive Fire Officer (EFO) Program&#39;s Advanced Research Project.</li>
+					<li>Determine actual locations and the total number of multi-family occupancies.</li>
+					<li>Set-up an inspection method.</li>
+					<li>Inspect.</li>
+					<li>Re-inspect.</li>
+					<li>Educate freshmen via fire and life safety classes.</li>
+				</ul>
+				</p>
+			</section>
+			<section class="targetdata">
+				<h4 class="subhead" id="possible-approach-to-implementation">Which data are used to target this CRR group?</h4>
+				<p>
+					<ul>
+						<li>Risk analysis of city occupancies</li>
+						<li>Analysis of city structure fires</li>
+						<li>Analysis of inspections type of occupancies and amount of structure fires in that type</li>
+						<li>Analysis of multi-family occupancy fires and their cause</li>
+					</ul>
+				</p>
+			</section>
+			<section class="activitydata">
+				<h4 class="subhead" id="possible-approach-to-implementation">Which CRR activities should be registered?</h4>
+				<p>
+				<ul>
+					<li>(re)inspections</li>
+					<li>Educations</li>
+				</ul>
+				</p>
+			</section>
+			</div>
+			
+            <div class="practice">
+                <p><span id="firecodeofficer" class="practicelab">Fire Code Officer, Positive Impacts with Code Enforcement</span></p>
+				<p><table id="ns-rdf-table">
+                <tbody>
+                    <tr>
+                        <td>Stakeholder</td>
+                        <td>Vancouver Fire Department</td>
+                    </tr>
+					<tr>
+                        <td>Stakeholder type</td>
+                        <td>Fire Department </td>
+                    </tr>
+					<tr>
+                        <td>Source/contact</td>
+                        <td>Heidi Scarpelli, Vancouver Fire Department</td>
+                    </tr>
+                </tbody>
+            </table></p>
+            <section class="goal">
+                    <h4 class="subhead" id="why">What is the CRR project goal? When is your project successful? </h4>
+					<p>
+					<ul>
+						<li>Create a fire code enforcement program that was cost neutral to city budget</li>
+						<li>Eliminate inspection backlog</li>
+						<li>Remove fire protection system annual test report review</li>
+						<li>Establish a routine inspection frequency for building occupancy types</li>
+					</ul>
+					Succes:
+					<ul>
+						<li>Number of inspections</li>
+						<li>Less back log of inspections</li>
+						<li>False alarm inspections</li>
+						<li>Number of hazards identified</li>
+						<li>Number of hazards reduced</li>
+					</ul>					
+					</p>
+            </section>
+            <section class="method">
+                    <h4 class="subhead" id="method">How is the project organized?</h4>
+					<p>
+					Cooperation between Fire Chief, City Manager&#39;s Office, City Finance/Budget Office and organized labor. 
+					Staff training with the International Fire code.
+					Digitize the code enforcement process & digital official correspondence
+					Inspections by geographical grid instead of occupancy type
+					VFD collaborated with organized labor and created a new position called Fire Code Officer (FCO). FCO is dedicated to fire code enforcement activities (inspections, permits, complaints, fireworks patrols, etc.). FCO revenue is generated from the fire inspection fee schedule. 
+					All VFD records (historical building/structural files, records, fire protection systems plans and fire protection systems testing/maintenance reports, fire inspection notices, fire operational permits a.o.) are digitized, providing immediate field access. 
+					</p>
+            </section>
+			<section class="activity">
+				<h4 class="subhead" id="possible-approach-to-implementation">Which CRR activity/activities do you employ?</h4>
+				<p>Target a community:
+				<ul>
+					<li>Inspections</li>
+					<li>Re-inspections</li>
+					<li>False alarm inspections</li>
+					<li>Hazards noted</li>
+					<li>Hazards mitigated</li>
+				</ul>
+				</p>
+			</section>
+			<section class="targetdata">
+				<h4 class="subhead" id="possible-approach-to-implementation">Which data are used to target this CRR group?</h4>
+				<p>
+					Create current and accurate building occupancy portfolio
+					Determine last known fire inspection within each geographical grid
+				</p>
+			</section>
+			<section class="activitydata">
+				<h4 class="subhead" id="possible-approach-to-implementation">Which CRR activities should be registered?</h4>
+				<p>
+				</p>
+			</section>
+			</div>
+			
+            <div class="practice">
+                <p><span id="reducecommunityrisk" class="practicelab">Reducing Community Risk with Emergency Response</span></p>
+				<p><table id="ns-rdf-table">
+                <tbody>
+                    <tr>
+                        <td>Stakeholder</td>
+                        <td>Anaheim Fire & Rescue</td>
+                    </tr>
+					<tr>
+                        <td>Stakeholder type</td>
+                        <td>Fire Department </td>
+                    </tr>
+					<tr>
+                        <td>Source/contact</td>
+                        <td>Dave Berry, Captain/Paramedic Anaheim Fire & Rescue</td>
+                    </tr>
+                </tbody>
+            </table></p>
+            <section class="goal">
+                    <h4 class="subhead" id="why">What is the CRR project goal? When is your project successful? </h4>
+					<p>
+					<ul>
+						<li>Increase advanced life support (ALS) availability</li>
+						<li>Test mobile health care integration</li>
+						<li>Create a hospital-fire-ambulance partnership</li>
+						<li>Reduce trips to the emergency room</li>
+						<li>Improve response capabilities</li>
+						<li>Improve patient outcomes</li>
+						<li>Reduce expenses for medical treatment (medicare expenses, provider billing amounts, potential emergency bed time hours)</li>
+					</ul>		
+					</p>
+            </section>
+            <section class="method">
+                    <h4 class="subhead" id="method">How is the project organized?</h4>
+					<p>
+					Partnership with Kaiser Permanente. 
+					CARES unit is created, staffed with a paramedic and a nurse practitioner that can provide medical treatments in the field. CARES unit respond to low-acuity calls
+					</p>
+            </section>
+			<section class="activity">
+				<h4 class="subhead" id="possible-approach-to-implementation">Which CRR activity/activities do you employ?</h4>
+				<p>Cares unit responds to low-acuity calls</p>
+			</section>
+			<section class="targetdata">
+				<h4 class="subhead" id="possible-approach-to-implementation">Which data are used to target this CRR group?</h4>
+				<p>
+					<ul>
+						<li>Review incident report forms</li>
+						<li>Analyse low-acuity calls</li>
+					</ul>
+				</p>
+			</section>
+			<section class="activitydata">
+				<h4 class="subhead" id="possible-approach-to-implementation">Which CRR activities should be registered?</h4>
+				<p>
+				<ul>
+					<li>Dispatch</li>
+					<li>Patients treated</li>
+					<li>Diagnose</li>
+					<li>Procedure (education, wound care, make appointments at other facilities, etc.)</li>
+					<li>Status (treat&release, transport basic life support, ALS, referred for an appointment)</li>
+				</ul>
+				</p>
+			</section>
+			</div>
+			
+			
+		
+            <div class="practice">
+                <p><span id="departmentculturalchange" class="practicelab">CRR as a Department Cultural Change Tool</span></p>
+				<p><table id="ns-rdf-table">
+                <tbody>
+                    <tr>
+                        <td>Stakeholder</td>
+                        <td>Richland Fire & Emergency Services (RF&ES)</td>
+                    </tr>
+					<tr>
+                        <td>Stakeholder type</td>
+                        <td>Fire Department </td>
+                    </tr>
+					<tr>
+                        <td>Source/contact</td>
+                        <td>Joseph DeRousie, Captain RF&ES</td>
+                    </tr>
+                </tbody>
+            </table></p>
+            <section class="goal">
+                    <h4 class="subhead" id="why">What is the CRR project goal? When is your project successful? </h4>
+					<p>
+					<ul>
+						<li>Decrease patient complaints</li>
+						<li>Improve patient satisfaction</li>
+						<li>Improve professional attitude RF&ES </li>
+						<li>Improve employee satisfaction</li>
+						<li>Improve flexibility in working environment</li>
+					</ul>
+					Success:
+					<ul>
+						<li>FD&#39;s workforce consistently seeks new and innovative ways to impact the community</li>
+						<li>Amount of new hires</li>
+						<li>No patient complaints</li>
+						<li>Citizen compliments</li>
+						<li>Stakeholders, businesses and citizens approach FD with new ways to involve FD</li>
+						<li>New fire station</li>
+						<li>FD&#39;s Budget is adjusted to accommodate CRR needs as it expands and broadens</li>
+					</ul>
+					</p>
+            </section>
+            <section class="method">
+                    <h4 class="subhead" id="method">How is the project organized?</h4>
+					<p>
+						Groups of department members (35% in total) followed NFA Leadership Strategies for CRR course. The groups assisted in changing FD&#39;s mindset beyond traditional methods of service. 				
+					</p>
+            </section>
+			<section class="activity">
+				<h4 class="subhead" id="possible-approach-to-implementation">Which CRR activity/activities do you employ?</h4>
+				<p>
+					<ul>
+						<li>Education of FD</li>
+						<li>Facilitate cultural change within FD</li>
+						<li>Start of an annual community risk profile with focus on 6 areas</li>
+						<li>Change of promotional process &#45; from traditional fire officer to include elements of leadership trait </li>
+						<li>Profiling, emotional intelligence, community involvement and oral presentation</li>
+						<li>Sustainability workshops to prepare next group of chief officers</li>
+						<li>Fired Up to Read &#45; reading/mentoring program for poor elementary school</li>
+					</ul>
+				</p>
+			</section>
+			<section class="targetdata">
+				<h4 class="subhead" id="possible-approach-to-implementation">Which data are used to target this CRR group?</h4>
+				<p>
+					&lsquo;We have instituted a community risk profile this year that is targeted in 5 specific areas.  It is in its infancy at this point, but is allowing us to get a focused look at those areas in order to approach the issue from the best angle.  Beyond that we don't capture the things we are doing.  This is a something that we are aware of and are working to remedy.&rsquo;
+				</p>
+			</section>
+			<section class="activitydata">
+				<h4 class="subhead" id="possible-approach-to-implementation">Which CRR activities should be registered?</h4>
+				<p>
+					None are documented. 
+				</p>
+			</section>
+			</div>
+			
+		
+			
+            <div class="practice">
+                <p><span id="schoolinspections" class="practicelab">School Inspection Effectiveness</span></p>
+				<p><table id="ns-rdf-table">
+                <tbody>
+                    <tr>
+                        <td>Stakeholder</td>
+                        <td>Minnesota State </td>
+                    </tr>
+					<tr>
+                        <td>Stakeholder type</td>
+                        <td>State Government</td>
+                    </tr>
+					<tr>
+                        <td>Source/contact</td>
+                        <td>Jon Nisja, Minnesota State Fire Marshal Division</td>
+                    </tr>
+                </tbody>
+            </table></p>
+            <section class="goal">
+                    <h4 class="subhead" id="why">What is the CRR project goal? When is your project successful? </h4>
+					<p>
+					<ul>
+						<li>Reduce the impact and severity of fires in schools
+						<ul>
+							<li>Improve life safety</li>
+							<li>Ensure adequate exits</li>
+							<li>Reduce ignition scenarios</li>
+							<li>Provide automatic fire protection systems</li>
+						</ul>
+						</li>
+					</ul>
+					Success:
+					<ul>
+						<li>Initially number of school fires increased: school officials became aware of the requirement to report fires</li>
+						<li>Decrease of school fires</li>
+						<li>Decrease of school fire rate (number of fires per 100 schools) (state vs national rate)</li>
+						<li>Decrease of school fire loss</li>
+					</ul>
+					</p>
+            </section>
+            <section class="method">
+                    <h4 class="subhead" id="method">How is the project organized?</h4>
+					<p>
+						State and national school fire loss (NFPA) was analyzed and the program&#39;s priorities were developed based on the available data (preventable fire causes, area of origin). Close cooperation between Minnesota Department of Education and Minnesota State Fire Marshal Division. 					
+					</p>
+            </section>
+			<section class="activity">
+				<h4 class="subhead" id="possible-approach-to-implementation">Which CRR activity/activities do you employ?</h4>
+				<p>
+					Identify common violations & solutions per type of school
+					Training for school officials on what to anticipate when their schools were inspected. Philosophy of helping schools improve their fire and life safety. 
+				</p>
+			</section>
+			<section class="targetdata">
+				<h4 class="subhead" id="possible-approach-to-implementation">Which data are used to target this CRR group?</h4>
+				<p>
+					School names, addresses, Building age				
+				</p>
+			</section>
+			<section class="activitydata">
+				<h4 class="subhead" id="possible-approach-to-implementation">Which CRR activities should be registered?</h4>
+				<p>
+					<ul>
+						<li>Schools visited</li>
+						<li>Hazards identified</li>
+						<li>Hazards mitigated</li>
+					</ul>
+				</p>
+			</section>
+			</div>
+			
+			
+			
+            <div class="practice">
+                <p><span id="radio" class="practicelab">CRR Radio</span></p>
+				<p><table id="ns-rdf-table">
+                <tbody>
+                    <tr>
+                        <td>Stakeholder</td>
+                        <td>The Vision 20/20 Project</td>
+                    </tr>
+					<tr>
+                        <td>Stakeholder type</td>
+                        <td>Stakeholder group</td>
+                    </tr>
+					<tr>
+                        <td>Source/contact</td>
+                        <td>Ed Comeau, Communications and Digital Media Manager</td>
+                    </tr>
+                </tbody>
+            </table></p>
+            <section class="goal">
+                    <h4 class="subhead" id="why">What is the CRR project goal? When is your project successful? </h4>
+					<p>
+						CRR Radio is a podcast series focusing on what people and organizations are doing to further the concepts of CRR in their communities.
+						Goal:  To share, educate and inform. 
+						Succes: The number of times the podcast is streamed or downloaded.
+					</p>
+            </section>
+            <section class="method">
+                    <h4 class="subhead" id="method">How is the project organized?</h4>
+					<p>
+						Interviews with CRR practitioners in the field.					
+					</p>
+            </section>
+			<section class="activity">
+				<h4 class="subhead" id="possible-approach-to-implementation">Which CRR activity/activities do you employ?</h4>
+				<p>
+					Podcast
+				</p>
+			</section>
+			<section class="targetdata">
+				<h4 class="subhead" id="possible-approach-to-implementation">Which data are used to target this CRR group?</h4>
+				<p>
+					None. It is publicly available for anyone to use and is marketed widely through a variety of channels.				
+				</p>
+			</section>
+			<section class="activitydata">
+				<h4 class="subhead" id="possible-approach-to-implementation">Which CRR activities should be registered?</h4>
+				<p>
+					Within the podcasts and the analytics.
+				</p>
+			</section>
+			</div>
+			
+			
+            <div class="practice">
+                <p><span id="edenpraire" class="practicelab">Eden Prairie Fire Department</span></p>
+				<p><table id="ns-rdf-table">
+                <tbody>
+                    <tr>
+                        <td>Stakeholder</td>
+                        <td>Eden Prairie Fire Department</td>
+                    </tr>
+					<tr>
+                        <td>Stakeholder type</td>
+                        <td>Local Fire Department</td>
+                    </tr>
+					<tr>
+                        <td>Source/contact</td>
+                        <td>Becki White, Assistant Chief</td>
+                    </tr>
+                </tbody>
+            </table></p>
+            <section class="goal">
+                    <h4 class="subhead" id="why">What is the CRR project goal? When is your project successful? </h4>
+					<p>
+						To educate the public on the risks of fire and smoke and to encourage them to have fire safe behaviors to prevent the risk of fire.  Fire safety messages will also be delivered so that the public will be able to react in a manner that will keep them safe in a fire situation.
+						Success: Fire call reduction
+					</p>
+            </section>
+            <section class="method">
+                    <h4 class="subhead" id="method">How is the project organized?</h4>
+					<p>
+						Education at community events and schools and senior center.					
+					</p>
+            </section>
+			<section class="activity">
+				<h4 class="subhead" id="possible-approach-to-implementation">Which CRR activity/activities do you employ?</h4>
+				<p>
+					Education, Inspection and Enforcement
+				</p>
+			</section>
+			<section class="targetdata">
+				<h4 class="subhead" id="possible-approach-to-implementation">Which data are used to target this CRR group?</h4>
+				<p>
+					high risk populations using national data summaries
+				</p>
+			</section>
+			<section class="activitydata">
+				<h4 class="subhead" id="possible-approach-to-implementation">Which CRR activities should be registered?</h4>
+				<p>
+					Attendance count
+				</p>
+			</section>
+			</div>
+			
+			
+		</section>
+  </body>
+	
+  </html>
