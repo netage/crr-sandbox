@@ -6,7 +6,7 @@
   <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/react/15.6.2/react.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/15.6.2/react-dom.js"></script>
-
+  <title>Netage B.V. - NFPA - CRR Model Browser</title>
   <style type="text/css">
     html, body, #container {
       height: 100%;
@@ -23,7 +23,7 @@
             if (!workspace) { return; }
             workspace.getModel().importLayout({        
                 dataProvider: new Ontodia.SparqlDataProvider({
-                    endpointUrl: 'http://localhost:8090/explorer/proxy/aHR0cHM6Ly9ncmFwaC5yZXNjLmluZm86NTgyMC9DUlIvcXVlcnk=',
+                    endpointUrl: 'https://data.resc.info/explorer/proxy/aHR0cHM6Ly9ncmFwaC5yZXNjLmluZm86NTgyMC9DUlIvcXVlcnk=',
                     
                     queryMethod: Ontodia.SparqlQueryMethod.GET
                 }, Ontodia.OWLStatsSettings),
